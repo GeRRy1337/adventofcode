@@ -6,7 +6,7 @@ fn main() {
     let chars=('a'..='z').chain('A'..='Z');
     let zipped = chars.into_iter().zip(nums.into_iter());
 
-    let contents = fs::read_to_string("/home/gerry/Desktop/Rust/aoc/adventofcode/day3/day3.txt").expect("");
+    let contents = fs::read_to_string("/home/gerry/Desktop/Rust/aoc/adventofcode/2022/day3/day3.txt").expect("");
 
     let mut sum=0;
     let mut db=0;
